@@ -1,0 +1,4 @@
+rename: shapes.jpg
+https://github.com/thensg/web-toolkit/data/circle.svg
+https://github.com/thensg/web-toolkit/data/square.svg
+https://github.com/thensg/web-toolkit/data/triangle.svg
