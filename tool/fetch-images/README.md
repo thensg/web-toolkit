@@ -59,7 +59,7 @@ rename: piece-of-cone.jpg
 folder: /shapes/3d/cone
 http://www.site.com/circle.jpg
 http://www.site.com/triangle.jpg
-			
+.
 rename: piece-of-cube.jpg
 folder: /shapes/3d/cube
 http://www.site.com/square.jpg
@@ -67,3 +67,7 @@ http://www.site.com/square.jpg
 Note that it is possible to exclude the `rename` template from the first
 collection of images (*circle.jpg* and *triangle.jpg*) so that they can retain
 their original file names while only the second set, *square.jpg*, is renamed.
+<br/>
+Important: Ignore the period that is in the line between the two collections;
+it should be a blank line, however, there appears to be a bug with the markdown
+that is causing the two collections to be split out into separate boxes.
