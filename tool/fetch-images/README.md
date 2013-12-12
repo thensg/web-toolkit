@@ -25,7 +25,7 @@ then the original URL file name will be used instead.
   current working directory will be used instead. The directory path can be
   either absolute or relative.
 
-### Example image-sources.txt files
+### Example `image-sources.txt` files
 
 1. To generate a set of image files in the current working directory and
 to retain their original file names:
@@ -59,7 +59,7 @@ rename: piece-of-cone.jpg
 folder: /shapes/3d/cone
 http://www.site.com/circle.jpg
 http://www.site.com/triangle.jpg
-
+  
 rename: piece-of-cube.jpg
 folder: /shapes/3d/cube
 http://www.site.com/square.jpg
