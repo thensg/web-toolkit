@@ -15,6 +15,6 @@ Web-Toolkit is a repository of command-line tools for capturing web data.
   </tr>
   <tr>
     <td><a href="blob/master/LICENSE">LICENSE</a></td>
-    <td style="width:100%">BSD 2-Clause license</td>
+    <td style="background-color:red">BSD 2-Clause license</td>
   </tr>
 </table>
