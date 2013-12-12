@@ -9,7 +9,9 @@ a new line. If a URL in the `image-sources.txt` file does not have a template,
 then the original URL file name will be used instead.
 
 ### Templates
+
 + `rename`: *filename*
+
   Renames each successive URL file name to *filename*. Repeating URLs will be
   enumerated with a number appended to *filename*. If *filename* contains an
   extension, then the number will be inserted after its base name. A recurrence
@@ -17,13 +19,15 @@ then the original URL file name will be used instead.
   to override and, thus, conflict with a prior declaration if they have the
   same *filename*.
 + `folder`: *dirpath*
+
   Specifies the local directory path, *dirpath*, where a file or collection
   should be saved. By default, if this template is not declared, then the
   current working directory will be used instead. The directory path can be
   either absolute or relative.
 
-### Example image-sources.txt
-[1] To generate a set of image files in the current working directory and
+### Example image-sources.txt files
+
+1. To generate a set of image files in the current working directory and
 to retain their original file names:
 ```
 http://www.site.com/circle.jpg
@@ -31,7 +35,7 @@ http://www.site.com/square.jpg
 http://www.site.com/triangle.jpg
 ```
 
-[2] To assign a generic name to each file using the `rename` template:
+2. To assign a generic name to each file using the `rename` template:
 ```
 rename: shape.jpg
 http://www.site.com/circle.jpg
@@ -40,7 +44,7 @@ http://www.site.com/triangle.jpg
 ```
 This will create the files *shape.jpg*, *shape-1.jpg*, and *shape-2.jpg*.
 
-[3] To redirect the output of each file to another directory using the `folder`
+3. To redirect the output of each file to another directory using the `folder`
 template:
 ```
 folder: /path/to/a/directory
@@ -49,7 +53,7 @@ http://www.site.com/square.jpg
 http://www.site.com/triangle.jpg
 ```
 
-[4] To redirect to multiple directories and use multiple generic names:
+4. To redirect to multiple directories and use multiple generic names:
 ```
 rename: piece-of-cone.jpg
 folder: /shapes/3d/cone
