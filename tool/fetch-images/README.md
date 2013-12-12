@@ -59,7 +59,7 @@ rename: piece-of-cone.jpg
 folder: /shapes/3d/cone
 http://www.site.com/circle.jpg
 http://www.site.com/triangle.jpg
-  
+```
 rename: piece-of-cube.jpg
 folder: /shapes/3d/cube
 http://www.site.com/square.jpg
