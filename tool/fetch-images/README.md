@@ -9,7 +9,7 @@ a new line. If a URL in the `image-sources.txt` file does not have a template,
 then the original URL file name will be used instead.
 
 ### Templates
-+ `rename: *filename*
++ `rename`: *filename*
   Renames each successive URL file name to *filename*. Repeating URLs will be
   enumerated with a number appended to *filename*. If *filename* contains an
   extension, then the number will be inserted after its base name. A recurrence
